@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>csslink}}
+    <title>Error</title>
+</head>
+<style>
+.main_header_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_header_left button{
+    border: none;
+    margin-top: 0.1rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 8px 6px -6px black;
+    outline: none;
+}
+.main_header_left button:hover{
+    color:white;
+    background-color: black;
+}
+.error{
+    width:40%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    margin-top: 1rem;
+    width:100%;
+    height:auto;
+}
+@media (max-width: 768px){
+    .main_header_left{
+        height: auto;
+        margin:5rem 0;
+    }
+    .main_header_left button:hover{
+        margin-top: 0.05rem;
+        padding: 0.2rem 0.4rem;
+        font-size: 0.5rem;
+    }
+}
+</style>
+<body>
+    <div class="main_header_left">
+        <figure class="error">
+            <img class="img-fluid" src="error.png" alt="error page">
+            <a href="/"><button>Go Back</button></a>
+        </figure>
+    </div>
+</body>
+</html>

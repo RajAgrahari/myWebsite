@@ -1,0 +1,18 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raj_agrahari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.12"
+  }
+}
