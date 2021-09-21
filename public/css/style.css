@@ -128,7 +128,7 @@ footer p i{
         margin: 0.03rem;
         padding:0.03rem;
     }
-    .navbar li{
+    .navbar li a{
         border-radius:2rem;
     }
     #name{
