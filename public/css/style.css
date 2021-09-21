@@ -128,6 +128,9 @@ footer p i{
         margin: 0.03rem;
         padding:0.03rem;
     }
+    .navbar li{
+        border-radius:2rem;
+    }
     #name{
         font-size:0.9rem;
     }
