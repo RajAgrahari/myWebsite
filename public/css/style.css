@@ -129,7 +129,7 @@ footer p i{
         padding:0.03rem;
     }
     .navbar li a{
-        border-radius:2rem;
+        border-radius:0rem;
     }
     #name{
         font-size:0.9rem;
